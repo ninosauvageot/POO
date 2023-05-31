@@ -1,0 +1,19 @@
+Question 3.
+l'attribut d'instance price ne doit pas être défini, car il est calculé par le prix en kilo et le poids
+
+Question 5.
+non ce n'est pas judicieux car c'est un attribut d'instance calculé
+
+la méthode d'instance est __tostring
+
+Question 6.
+permet de définir un poids aléatoire en rappelant la méthode setWeight
+
+Question 8.
+la troisième façon est appelé qu'un seul parametre, mais ça sera toujours la première valeur qui vaudra x
+donc on ne peut pas définir uniquement le y sans définir x
+
+Question 15.
+getStart modifie indirectement, car il fait une simple copie dans la mémoire, et donc partage les mêmes données et mêmes modifications
+
+segment1 à était bien modifier

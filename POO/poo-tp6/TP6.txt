@@ -1,0 +1,27 @@
+TP6
+SAUVAGEOT Nino TD1A
+
+Question 6 :
+les classes Date et Person ne sont pas modifiable parce qu'ils n'ont pas de modificateur
+
+la raison est que l'héritage va permettre le partage mémoire entre les instances
+
+Question 10 :
+la solution à adopter à ce problème est de faire un abstract
+mais faire un abstract sur la méthode nous oblige à le faire également sur la class
+
+Question 16 :
+...
+
+Question 21 :
+...
+
+Question 26 :
+...
+
+Question 30 :
+...
+
+Question 33 :
+...
+

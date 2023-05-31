@@ -1,0 +1,76 @@
+Question 1.
+
+Nous pouvons constater qu'il affiche le nom de l'objet $france, mais également sa surface et sa population avec une indentation
+name = String ; surface = float ; population = int
+le travail du constructeur est de pouvoir créer un objet avec les différentes caractéristiques
+
+Question 2.
+
+les valeurs de surface et population sont à 0 car si les parametres du constructeur n'ont pas de données alors par défaut il est égale à 0
+le contructeur a creer un objet nommé Italie
+le plus judicieux aurait été d'appeler le constructeur avec les 3 paramètres parce qu'on connait deja les attributs au début de la consigne.
+
+Question 3.
+celui vide est initialiser par les valeurs par défaut du constructeur "Unknow", 0, 0
+alors que l'instance avec 2 paramètres à le nom et la surface qui sont initialisé
+
+Question 8.
+je pense que la différence entre les fonctions et méthodes est la manière qu'il est appelé
+les méthodes d'instances sont définis pour les classes alors que les fonctions ne fait que utiliser les classes
+
+Question 9.
+classe = permet de définir une structure à toutes les données
+instance = il est le type que va avoir la classe, si on veut une classe qui permet de faire différents pays alors on définit comme un "Country" puisque c'est le nom de la classe
+objet = il est le résultat de la classe (on utilise classe pour faire des pays mais "france" est défini comme un objet)
+méthode d’instance = permet d'appliquer/modifier des données d'un objet
+constructeur = permet de générer des objets
+
+Question 10.
+1) Nom, Prénom, Age
+2) lastName String : firstName String : age int
+3) il correspond à la visibilité de l'attribut
+4) private n'est utilisé que pour la classe où il a était défini
+alors que public peut être utilisé sur d'autres
+5) oui, car on utilise require_once "Person.php";
+permet de structurer les données et d'en avoir l'accès uniquement par la même méthode
+
+Question 11.
+la classe ne définit pas de valeurs par défaut et renvoie une erreur.
+
+les valeurs sont *uninitialized* parce qu'il n'y a pas de valeur définit
+
+Question 12.
+on utilise un constructeur pour construire un objet
+
+on utilise new
+
+son objectif est de définirs des valeurs dans les attributs, ou de les mettres par défaut
+
+on peut créer un objet par constructeur, ou alors on refait appel à un constructeur sur une autre variable
+
+il n'a pas de type de retour
+
+le nom qu'il porte est __construct
+
+Question 13.
+les paramètres sont string $lastName, string $firstName, int $age
+
+il construit un objet Person
+
+$this permet de mettre la variable dans les attributs du futur objet
+
+il définit le prénom dans l'objet
+
+elle n'est toujours pas valide parce qu'il n'y a pas de valeur
+
+on peut instancier une ou plusieurs, donc il y a beaucoup de façon d'instancier un objet
+
+ses valeurs sont String String et Int
+
+Question 14.
+le type de retour est un string, et il n'y a pas de paramètre
+
+elle ne peut le modifié car il n'y a pas de paramètre
+
+Question 21.
+la variable $jacques ne peut pas être converti en string pour l'affichage

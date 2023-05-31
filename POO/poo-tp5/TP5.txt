@@ -1,0 +1,47 @@
+TP5
+SAUVAGEOT Nino TD1A
+
+Question 1 :
+le mode d'accès est en Protected
+private = n'est accessible que par les fonctions de la classe (seul les fonction ou objet membres sont autorisées)
+public = accessible par tous et de n'importe où
+protected = très ressemblant à private mais les sous-classe (classe fille) on accès également à cette classe
+
+Question 2 :
+la syntaxe permettant d'obtenir le lien d'héritage qui existe entre les classes Shapes et Rectangle est "class Rectangle extends Shape"
+
+Question 3 :
+je constate qu'il a un attribut parent de Shape pour appeler son constructeur et définir le nombre de sommets à 4
+
+l'instruction parent::__construct(4) correspond au nombre de sommet
+si elle n'est pas présente alors il y a une erreur parce qu'il est l'enfant de la classe Shape
+
+Question 4 :
+parent::print() permet d'utiliser également le print de Shape
+si elle n'est pas présente alors elle renvoie rien (pas d'erreur)
+on peut le remplacer par echo "Sommets : {$this->vertices}\n";
+
+Question 5 :
+je constate que $carre1 a un attribut parent de Shape pour appeler son constructeur et définir le nombre de sommets à 4
+oui c'est un rectangle
+
+parent::__construct($a1,$a1); permet de créer un carré car on reprend une variable 2 fois pour faire chacunes des aretes
+
+oui il est possible d'appeler le constructeur de Shape pour $this
+
+Question 6 :
+je pense que ce n'est pas possible, car l'héritage de Square le force à utiliser les méthodes deja existante
+
+Partie 2 Lodgement
+
+Question 5 :
+il n'est pas nécessaire de créer une méthode clone car PHP peut deja cloner se type de donnée
+
+
+
+
+
+
+
+
+

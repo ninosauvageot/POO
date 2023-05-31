@@ -1,0 +1,21 @@
+Question 1.
+aucunes valeurs était parametrer lors de la création de $inconnu
+il est donc normale qu'il renvoie *uninitialized*
+
+Question 2.
+les types et valeurs sont
+string(6) "Dupont"
+string(5) "Louis"
+et array(0)
+
+Question 4.
+nous n'avons pas besoin de compléter la définition de la classe Student
+car il est possible de cloner les variables String et Array directement depuis PHP
+
+Question 5.
+la méthode qu'on doit utiliser est __toString
+
+Question 6.
+l'implémentation respecte le principe d'encapsulation car si on modifie
+la variable $notes qui définit les notes de l'élèves, le constructeur ne
+réactualise pas les données de l'élèves.
